@@ -46,7 +46,6 @@ text = "Options"
 
 [node name="MainMenuButton" type="Button" parent="ContentContainer/BoxContainer/MenuButtonsMargin/MenuButtons" index="3"]
 unique_name_in_owner = true
-visible = false
 layout_mode = 2
 text = "Main Menu"
 
