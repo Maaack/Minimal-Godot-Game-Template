@@ -20,10 +20,8 @@ extends Node
 @export var auto_load : bool = true
 @export_group("Scenes")
 ## Path to a main menu scene.
-## Will attempt to read from AppConfig if left empty.
 @export_file("*.tscn") var main_menu_scene_path : String
 ## Optional path to an ending scene.
-## Will attempt to read from AppConfig if left empty
 @export_file("*.tscn") var ending_scene_path : String
 ## Optional screen to be shown after the game is won.
 @export var game_won_scene : PackedScene
@@ -51,8 +49,6 @@ func _try_connecting_signal_to_level(signal_name : String, callable : Callable) 
 	_try_connecting_signal_to_node(current_level, signal_name, callable)
 
 func get_main_menu_scene_path() -> String:
-	if main_menu_scene_path.is_empty():
-		return AppConfig.main_menu_scene_path
 	return main_menu_scene_path
 
 func _load_main_menu() -> void:
@@ -82,8 +78,6 @@ func get_prev_level_path() -> String:
 	return get_relative_level_path(-1)
 
 func get_ending_scene_path() -> String:
-	if ending_scene_path.is_empty():
-		return AppConfig.ending_scene_path
 	return ending_scene_path
 
 func _load_ending() -> void:
