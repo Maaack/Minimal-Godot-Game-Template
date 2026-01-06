@@ -2,7 +2,6 @@ extends Control
 ## Scene for displaying opening logos, placards, or other images before a game.
 
 ## Defines the path to the next scene.
-## Will attempt to read from AppConfig if left empty.
 @export_file("*.tscn") var next_scene_path : String
 ## The list of images to show in the opening sequence.
 @export var images : Array[Texture2D]
@@ -25,8 +24,6 @@ var tween : Tween
 var next_image_index : int = 0
 
 func get_next_scene_path() -> String:
-	if next_scene_path.is_empty():
-		return AppConfig.main_menu_scene_path
 	return next_scene_path
 
 func _on_scene_loaded() -> void:
