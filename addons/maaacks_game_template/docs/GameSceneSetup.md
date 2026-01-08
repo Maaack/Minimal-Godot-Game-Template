@@ -14,8 +14,6 @@ Some level loading scripts are provided with the examples. They load levels in o
 
 The `LevelManager` manages the progress through levels. It works with a level loader and can open menus when players win or lose. With a child `SceneLister`, it manages progression linearly. Otherwise, it will rely on the levels themselves providing the path to the next level. It can either be assigned a starting level path (for open world progression) or start from the first level in a scene lister (for linear level progression).
 
-The specific `level_and_state_manager.gd` in the scene inherits from `LevelManager` in order to sync progress with the player's `GameState`, as well.
-
 A `LevelLoader` loads levels, attaches them to a container, and manages a loading screen. It must be provided with a `level_container` in the scene. The example uses the `SubViewport`, but any leaf node (ie. node without children) in the scene should work. An optional `level_loading_screen` in the scene can be attached to show progress of loading levels.
 
 ### Linear Level Progress
