@@ -173,5 +173,5 @@ Join the [Discord server](https://discord.gg/AyZrJh5AMp ) and share your work wi
 ## Links
 [Attribution](/addons/maaacks_game_template/ATTRIBUTION.md)  
 [License](/addons/maaacks_game_template/LICENSE.txt)  
-[Godot Asset Library - Template](https://godotengine.org/asset-library/asset/2703)  
-[Godot Asset Library - Plugin](https://godotengine.org/asset-library/asset/2709)  
+[Godot Asset Library - Template](https://godotengine.org/asset-library/asset/4657)  
+[Godot Asset Library - Plugin](https://godotengine.org/asset-library/asset/4658)  
