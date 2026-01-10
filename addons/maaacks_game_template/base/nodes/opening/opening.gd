@@ -18,6 +18,7 @@ extends Control
 ## The delay after ending the last fade-in animation before loading the next scene.
 @export var end_delay : float = 0.5
 ## If true, show a loading screen if the next scene is not yet ready.
+## Requires Maaack's Scene Loader.
 @export var show_loading_screen : bool = false
 
 ## If Maaack's Scene Loader is installed, then it will be used to change scenes.

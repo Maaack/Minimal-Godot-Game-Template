@@ -16,6 +16,7 @@ signal game_exited
 @export var confirm_exit : bool = true
 @export_group("Extra Settings")
 ## If true, signals that the game has started loading in the background, instead of directly loading it.
+## Requires Maaack's Scene Loader.
 @export var signal_game_start : bool = false
 ## If true, signals that the player clicked the 'Exit' button, instead of immediately exiting.
 @export var signal_game_exit : bool = false

@@ -10,6 +10,7 @@ signal level_ready
 ## Container where the level instance will be added.
 @export var level_container : Node
 ## Optional reference to a loading screen in the scene.
+## Requires Maaack's Scene Loader.
 @export var level_loading_screen : Node
 @export_group("Debugging")
 @export var current_level : Node
