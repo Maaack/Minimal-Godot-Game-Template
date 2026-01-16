@@ -18,7 +18,6 @@ Maaack's Game Templates are a culmination of a suite of plugins, that can be dow
 - [Minimal Game Template](https://github.com/Maaack/Godot-Minimal-Game-Template) 
     - [Options Menus](https://github.com/Maaack/Godot-Options-Menus)
         - [Input Remapping](https://github.com/Maaack/Godot-Input-Remapping)
-    - [Scene Loader](https://github.com/Maaack/Godot-Scene-Loader)
 
 ## Godot Asset Library
 
@@ -34,7 +33,6 @@ Maaack's Game Templates are a culmination of a suite of plugins, that can be dow
 - [Minimal Game Template](https://godotengine.org/asset-library/asset/4657) 
     - [Options Menus](https://godotengine.org/asset-library/asset/3058)
         - [Input Remapping](https://godotengine.org/asset-library/asset/4051)
-    - [Scene Loader](https://godotengine.org/asset-library/asset/2896)
 
 ## YouTube Video
 
